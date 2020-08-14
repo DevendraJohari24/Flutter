@@ -21,21 +21,6 @@ class _VideoAppState extends State<VideoApp> {
     super.initState();
   }
 
-  /* playvideofromfile(path) {
-    _controller = VideoPlayerController.file(path);
-    //_controller = VideoPlayerController.asset("videos/sample_video.mp4");
-    _initializeVideoPlayerFuture = _controller.initialize();
-    _controller.setLooping(true);
-    _controller.setVolume(1.0);
-    setState(() {
-      if (path != null) {
-        _controller.play();
-      } else {
-        _controller.pause();
-      }
-    });
-  }
-*/
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
@@ -149,26 +134,6 @@ class _VideoAppState extends State<VideoApp> {
                   ],
                 ),
               ),
-              /* Container(
-                child: Center(
-                  child: RaisedButton(
-                    onPressed: () async {
-                      var path =
-                          await FilePicker.getFilePath(type: FileType.video);
-                      playvideofromfile(path);
-                    },
-                    child: Text(
-                      "Local Video File",
-                      style: TextStyle(
-                        color: Colors.white,
-                        fontSize: 20,
-                        fontWeight: FontWeight.bold,
-                      ),
-                    ),
-                    color: Colors.lightBlueAccent,
-                  ),
-                ),
-              )*/
             ],
           ),
         ),
