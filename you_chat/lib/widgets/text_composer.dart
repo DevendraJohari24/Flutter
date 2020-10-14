@@ -6,7 +6,7 @@ import 'package:flutter/material.dart';
 import 'package:google_sign_in/google_sign_in.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:firebase_storage/firebase_storage.dart';
-
+import 'package:flutter_emoji/flutter_emoji.dart';
 
 class TextComposer extends StatefulWidget {
 
@@ -20,7 +20,9 @@ class TextComposer extends StatefulWidget {
 
 class _TextComposerState extends State<TextComposer> with
   TickerProviderStateMixin {
-
+  var parser = EmojiParser();
+  var coffee = Emoji('coffee', '☕');
+  var heart  = Emoji('heart', '❤️');
   final TextEditingController _textEditingController = TextEditingController();
 
   bool _isComposing = false;
@@ -31,6 +33,7 @@ class _TextComposerState extends State<TextComposer> with
     setState(() {
       _isComposing = false;
     });
+
     _sendMessage(text: text);
   }
 

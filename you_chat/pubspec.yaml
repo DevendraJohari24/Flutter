@@ -34,6 +34,7 @@ dev_dependencies:
     sdk: flutter
   firestore_ui: ^1.11.0
   image_picker: ^0.6.7+11
+  flutter_emoji: ^2.2.1+1
   firebase_storage: ^4.0.1
   cloud_firestore: ^0.14.1+3
   flutter_signin_button: ^1.1.0

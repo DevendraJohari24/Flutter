@@ -91,7 +91,7 @@ class _ChatScreenState extends State<ChatScreen> {
       );
     else
       return Scaffold(
-        backgroundColor: Colors.lightBlueAccent,
+        backgroundColor: Colors.teal[100],
         appBar: AppBar(
           title: Text('YouChat'),
           actions: <Widget>[
