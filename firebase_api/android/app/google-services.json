@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "605277870391",
+    "firebase_url": "https://instabase-24b99.firebaseio.com",
+    "project_id": "instabase-24b99",
+    "storage_bucket": "instabase-24b99.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:605277870391:android:82635b8cdef7caf1a8a2b2",
+        "android_client_info": {
+          "package_name": "com.example.firebase_api"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "605277870391-jvbhbm41jatu4jrdmoo4iau2sbuvvqao.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.firebase_api",
+            "certificate_hash": "467868839d1d3128c8b5b34a7e94dfcae104e565"
+          }
+        },
+        {
+          "client_id": "605277870391-6rrhg8dnel9ukjqtsh6cuh25vn64j3n0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCYieFxkrLn3Bh42NG4_TkneQdC6v4wors"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "605277870391-6rrhg8dnel9ukjqtsh6cuh25vn64j3n0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

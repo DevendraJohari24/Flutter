@@ -1,25 +1,23 @@
-import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
-import 'package:insta_app/pages/home.dart';
+import 'package:firebase_api/pages/HomePage.dart';
 import 'package:firebase_core/firebase_core.dart';
-import 'dart:async';
-void main() async{
+
+void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp();
-  runApp(MyApp());
+  runApp(HomePage());
 }
 
-class MyApp extends StatelessWidget {
-  @override
+class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'FlutterShare',
+      title: "FIREBASE API",
+      home: MyHomePage(),
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        primarySwatch: Colors.deepPurple,
+        primarySwatch: Colors.green,
         accentColor: Colors.teal,
       ),
-      home: Home(),
     );
   }
 }
